@@ -90,6 +90,11 @@ iframe{
   margin-top:40px;
 }
 
+footer {
+
+  text-align: center;
+}
+
 .social-media-icon{
   transition:.3s;
 }

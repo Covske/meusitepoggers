@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+body {
+
+      margin: 0;
+      overflow-x: hidden;
+      
+}
 
 img {
     max-width: 800px;
@@ -22,13 +28,28 @@ img {
     width: 100%;
 }
 
-.erycovsk-footer {
+.covske-footer {
     color: black;
 }
 
 h1, h2, p {
     text-align: center;
+    
 }
+
+.container-iframe {
+  display: flex;
+  justify-content: center;
+}
+
+.container-iframe iframe {
+  border: none;
+  width: 270px;
+  height: 200px;
+}
+
+
+
 
 .latex {
     max-width: 400px;
